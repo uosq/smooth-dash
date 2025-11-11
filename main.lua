@@ -3,6 +3,11 @@ printc(100, 255, 100, 255, "Using the dash and recharge key from Lmaobox")
 printc(100, 255, 100, 255, "If you want to change the keys, change them from Lmaobox's menu")
 printc(100, 255, 100, 255, "They will be reverted when the script is unloaded")
 
+client.ChatPrintf("Lmaobox's dash is disabled until you unload this script")
+client.ChatPrintf("Using the dash and recharge key from Lmaobox")
+client.ChatPrintf("If you want to change the keys, change them from Lmaobox's menu")
+client.ChatPrintf("They will be reverted when the script is unloaded")
+
 local warpKey = gui.GetValue("dash move key")
 local rechargeKey = gui.GetValue("force recharge key")
 
