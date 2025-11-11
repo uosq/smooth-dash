@@ -61,6 +61,7 @@ local width, height = 100, 20
 local function OnDraw()
     if clientstate.GetClientSignonState() <= E_SignonState.SIGNONSTATE_SPAWN then
         charge = 0
+        return
     end
 
     local sw, sh = draw.GetScreenSize()
